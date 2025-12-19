@@ -1,0 +1,25 @@
+
+# Maven
+
+target/
+
+
+
+# Eclipse / STS
+
+.classpath
+
+.project
+
+.settings/
+
+Servers/
+
+
+
+# OS
+
+.DS_Store
+
+Thumbs.db
+
