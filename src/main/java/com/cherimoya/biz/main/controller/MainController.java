@@ -19,5 +19,14 @@ public class MainController {
 		return "main/main";
 		
 	}
+	
+	@GetMapping("/footer.do")
+	public String footer(Model model) {
+		
+		log.info("풋터 실행");
+		
+		return "main/footer";
+		
+	}
 
 }

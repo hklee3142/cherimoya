@@ -23,3 +23,5 @@ Servers/
 
 Thumbs.db
 
+#sh
+deploy_cherimoya.sh
