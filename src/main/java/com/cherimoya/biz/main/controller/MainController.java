@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 import lombok.extern.slf4j.Slf4j;
 
+
 @Slf4j
 @Controller
 public class MainController {
@@ -14,7 +15,7 @@ public class MainController {
 	@GetMapping("/main.do")
 	public String main(Model model) {
 		
-		log.info("메인 실행");
+		log.info("test");
 		
 		return "main/main";
 		
@@ -23,8 +24,8 @@ public class MainController {
 	@GetMapping("/footer.do")
 	public String footer(Model model) {
 		
-		log.info("풋터 실행");
 		
+	
 		return "main/footer";
 		
 	}
