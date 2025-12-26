@@ -1,3 +1,4 @@
+<%@ page contentType="text/html; charset=UTF-8" %>
 <!DOCTYPE html>
 <html class="light" lang="en"><head>
 <meta charset="utf-8"/>
@@ -73,7 +74,7 @@
 <div class="flex justify-between items-end mb-6 pl-1">
 <div>
 <p class="text-primary font-bold text-xs uppercase tracking-wider mb-1">New Updates</p>
-<h1 class="text-2xl font-bold text-slate-900 dark:text-white">Latest Stories 🍓</h1>
+<h1 class="text-2xl font-bold text-slate-900 dark:text-white">Latest Stories🍓</h1>
 </div>
 <div class="w-12 h-12 -mb-2 rotate-12 drop-shadow-md">
 <div class="w-full h-full bg-contain bg-no-repeat bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD5dESthRaP6eC85WSiHpObRRwqQu9qLOcDPCa834J3T3sjOKjRYmf8uooGWHWb3yYMBTSCQAPNruG07R_aIHfBx2fsUnYBZj7s8yhlsmyYt3mFasAdP4P5inx1Eq6QZq1eEQ6NCMnP9KWScjOfxhp7m6RyhputDM9Pgu0qQUbCzuyUAHHJKfZkFOGH8c_WjLDul_7o_wG6V5tBdDq8MKmZrA3YhxYPK27JXnh3_98LUDqmiGU0hDaUdf-TusdxiopfwK5-_GYW5ts');"></div>
@@ -99,13 +100,13 @@
                 All Posts
             </button>
 <button class="px-5 py-2 rounded-xl bg-surface-light dark:bg-surface-dark text-slate-600 dark:text-slate-300 text-sm font-medium shadow-sm border border-pink-100 dark:border-pink-900/30 whitespace-nowrap">
-                Desserts
+                일기 
             </button>
 <button class="px-5 py-2 rounded-xl bg-surface-light dark:bg-surface-dark text-slate-600 dark:text-slate-300 text-sm font-medium shadow-sm border border-pink-100 dark:border-pink-900/30 whitespace-nowrap">
-                Daily Life
+                독서
             </button>
 <button class="px-5 py-2 rounded-xl bg-surface-light dark:bg-surface-dark text-slate-600 dark:text-slate-300 text-sm font-medium shadow-sm border border-pink-100 dark:border-pink-900/30 whitespace-nowrap">
-                Travel
+                여행
             </button>
 </div>
 <div class="flex flex-col gap-6">

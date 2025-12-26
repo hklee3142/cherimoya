@@ -12,7 +12,9 @@ import lombok.extern.slf4j.Slf4j;
 public class MainController {
 	
 	
-	@GetMapping("/main.do")
+	
+	
+	@GetMapping(value={"/","/main.do"})
 	public String main(Model model) {
 		
 		log.info("test");
