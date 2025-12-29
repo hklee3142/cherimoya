@@ -21,7 +21,7 @@
                         "surface-light": "#ffffff",
                         "surface-dark": "#2d161b",
                     },
-                    fontFamily: {
+                   fontFamily: {
                         "display": ["Plus Jakarta Sans", "sans-serif"]
                     },
                     borderRadius: {
