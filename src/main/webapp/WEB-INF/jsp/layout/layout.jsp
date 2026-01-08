@@ -6,4 +6,6 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 	<tiles:insertAttribute name="header" />
+	<tiles:insertAttribute name="body" />
+	<tiles:insertAttribute name="footer" />
 </html>

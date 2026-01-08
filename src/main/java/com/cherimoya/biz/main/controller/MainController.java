@@ -19,7 +19,7 @@ public class MainController {
 		
 		log.info("test");
 		
-		return "main/main";
+		return "mainLayout";
 		
 	}
 	

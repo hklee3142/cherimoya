@@ -5,14 +5,20 @@
 
 <tiles-definitions>
 
-    <definition name="baseLayout" template="/WEB-INF/jsp/layout/layout.jsp">
+    <definition name="mainLayout" template="/WEB-INF/jsp/layout/layout.jsp">
         <put-attribute name="header" value="/WEB-INF/jsp/layout/header.jsp"/>
+        <put-attribute name="body">
+        	<definition template="/WEB-INF/jsp/layout/body.jsp">
+        		<put-attribute name="menu" value="/WEB-INF/jsp/main/menu.jsp"/>
+        		<put-attribute name="main" value="/WEB-INF/jsp/main/main.jsp"/>		
+        	</definition>
+        </put-attribute>
         <put-attribute name="footer" value="/WEB-INF/jsp/layout/footer.jsp"/>
-        <put-attribute name="body"/>
     </definition>
 
-    <definition name="sample/test" extends="baseLayout">
-        <put-attribute name="body" value="/WEB-INF/jsp/main/main.jsp"/>
-    </definition>
+<!--     <definition id="body" name="sample/test" extends="baseLayout">
+    	<put-attribute name="menu" value="/WEB-INF/jsp/main/menu.jsp"/>
+        <put-attribute name="main" value="/WEB-INF/jsp/main/main.jsp"/>
+    </definition> -->
 
 </tiles-definitions>
